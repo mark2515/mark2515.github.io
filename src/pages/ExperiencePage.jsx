@@ -23,9 +23,11 @@ const Experience = () => {
                 <h4 className="paragraph text-lg mt-2 ml-3">Jan 2019 - Present</h4>
                 <ul className='space-y-4 text-md md:text-lg px-4 py-10 list-disc -mt-10'>
                   <br></br>
+                  <li>2024 Dean's Honour Roll, Simon Fraser University</li>
                   <li>Mountain Madness 2024, Simon Fraser University - <span className='paragraph underline font-bold'>5th Place</span></li>
                   <li>A Strange Programming Contest 2023, Simon Fraser University - <span className='paragraph underline font-bold'>Creativity Award</span></li>
-                  <li>Euclid Mathematics Contest 2019 - <span className='paragraph underline font-bold'>Top 15%</span> among 22169 applicants</li>
+                  <li>2020 Lanqiao Cup Competition: C/C++ Programming - <span className='paragraph underline font-bold'>Third Prize</span></li>
+                  <li>Euclid Mathematics Contest 2019 - <span className='paragraph underline font-bold'>Top 25%</span> among 22169 applicants</li>
                 </ul>
               </div>
             </VerticalTimelineElement>
@@ -62,7 +64,7 @@ const Experience = () => {
                 <h4 className="paragraph text-lg mt-2 ml-3">Aug 2023 - Dec 2023</h4>
                 <ul className='space-y-4 text-md md:text-lg px-6 py-10 list-disc -mt-10'>
                   <br></br>
-                    <li>Designed and developed advanced chatbots using the latest in Natural Language Processing (NLP) and AI technologies, including mainstream large language models (LLMs). </li>
+                    <li>Designed and developed advanced chatbots using the latest in Natural Language Processing (NLP) and AI technologies, including mainstream large language models (LLMs) like GPT-4. </li>
                     <li>Built user-friendly interfaces and integrating backend systems using Vue, Node.js, and REST APIs, leveraging Alibaba Cloud for database hosting to ensure scalability and efficiency</li>
                 </ul>
               </div>

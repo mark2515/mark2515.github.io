@@ -22,7 +22,7 @@ const About = () => {
             <p className="text-center md:text-left text-xl md:text-3xl">
               I am a <span className="gradient bg-gradient-to-b from-blue-300 to-blue-700 bg-clip-text text-transparent font-bold">Computer Science</span> student at Simon Fraser University, 
               continuously learning new skills in <span className="gradient bg-gradient-to-b from-blue-300 to-blue-700 bg-clip-text text-transparent font-bold">software development</span>.
-              My dream is to bring innovation and change to the world.
+              My dream is to develop innovative software solutions that address real-world problems.
             </p>
 
             <div className="flex justify-center md:justify-start space-x-8"> 
@@ -38,7 +38,7 @@ const About = () => {
             </div>
 
             <div className="flex justify-center md:justify-start">
-              <div className='card-wrapper-button font-bold h-[5rem] w-[15rem] hover:scale-105 transition ease-in-out duration-500'>
+              <div className='card-wrapper-button font-bold h-[5rem] w-[16rem] hover:scale-105 transition ease-in-out duration-500'>
                 <a href={'https://raw.githubusercontent.com/mark2515/mark2515.github.io/6cb2beeb3fa1af346653c49b87cda7ab1dd8e4ce/Kunlong_He_Resume.pdf'} target="_blank" rel="noopener noreferrer">
                   <button className='card-content-button rounded-3xl cursor-pointer'>
                     <p className="text-center text-xl font-bold">Download My Resume</p>
