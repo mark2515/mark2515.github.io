@@ -45,7 +45,8 @@ const Experience = () => {
                 <h4 className="paragraph text-lg mt-2 ml-3">Aug 2021 - Nov 2021</h4>
                 <ul className='space-y-4 text-md md:text-lg px-6 py-10 list-disc -mt-10'>
                   <br></br>
-                    <li>Responsible for designing and developing components for Deloitte's component library, using technologies such as React, Material UI, and Redux Toolkit. My role involves conducting rigorous component testing using Jest to ensure code quality, maintainability, and robust functionality.</li>
+                    <li>Responsible for designing and developing components for Deloitte's component library, using technologies such as React, Material UI, and Redux Toolkit.</li>
+                    <li>Conducted rigorous component testing using Jest to ensure code quality, maintainability, and robust functionality.</li>
                 </ul>
               </div>
             </VerticalTimelineElement>
@@ -64,7 +65,7 @@ const Experience = () => {
                 <h4 className="paragraph text-lg mt-2 ml-3">Aug 2023 - Dec 2023</h4>
                 <ul className='space-y-4 text-md md:text-lg px-6 py-10 list-disc -mt-10'>
                   <br></br>
-                    <li>Designed and developed advanced chatbots using the latest in Natural Language Processing (NLP) and AI technologies, including mainstream large language models (LLMs) like GPT-4. </li>
+                    <li>Designed and developed advanced chatbots using the latest in Natural Language Processing (NLP) and the Langchain framework, including mainstream large language models (LLMs) like GPT-4. </li>
                     <li>Built user-friendly interfaces and integrating backend systems using Vue, Node.js, and REST APIs, leveraging Alibaba Cloud for database hosting to ensure scalability and efficiency</li>
                 </ul>
               </div>
