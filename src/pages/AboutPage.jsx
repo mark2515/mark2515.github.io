@@ -39,7 +39,7 @@ const About = () => {
 
             <div className="flex justify-center md:justify-start">
               <div className='card-wrapper-button font-bold h-[5rem] w-[16rem] hover:scale-105 transition ease-in-out duration-500'>
-                <a href={'https://raw.githubusercontent.com/mark2515/mark2515.github.io/6cb2beeb3fa1af346653c49b87cda7ab1dd8e4ce/Kunlong_He_Resume.pdf'} target="_blank" rel="noopener noreferrer">
+                <a href={'https://raw.githubusercontent.com/mark2515/mark2515.github.io/fb8841e1164520436d59c7cd79b97b9bd8da98b0/src/assets/Kunlong_He_Resume.pdf'} target="_blank" rel="noopener noreferrer">
                   <button className='card-content-button rounded-3xl cursor-pointer'>
                     <p className="text-center text-xl font-bold">Download My Resume</p>
                   </button>
