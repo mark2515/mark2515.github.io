@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Typewriter from 'typewriter-effect';
 import FancyButton from '../components/FancyButton';
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   useEffect(() => {
@@ -51,34 +52,20 @@ const handleChange = (e) => {
 const handleSubmit = async (e) => {
   e.preventDefault();
   if (validateForm()) {
-    try {
-      const response = await fetch('https://server.chengzeng.dev/api/submit-form', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
+    emailjs.sendForm('service_xpbn1yk', 'template_19sq1aj', e.target, '6Tb4W-GWaW05lLvSW')
+      .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          setSuccessMessage('Message received! I\'ll be in touch as soon as possible.');
+          setFormData({ name: '', email: '', message: '' });
+          setTimeout(() => setSuccessMessage(''), 5000);
+      }, (error) => {
+          console.error('FAILED...', error);
+          setErrorMessage('Failed to send your message. Please try again.');
+          setTimeout(() => setErrorMessage(''), 5000);
       });
-      
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.message || `HTTP error! status: ${response.status}`);
-      }
-      
-      setSuccessMessage('Message received! I\'ll be in touch as soon as possible.');
-      setFormData({ name: '', email: '', message: '' });
-      setTimeout(() => setSuccessMessage(''), 5000);
-    } catch (error) {
-      if (error.message.includes('Too many requests')) {
-        setErrors({ submit: 'Messages are sent too quickly.' });
-        setErrorMessage('You\'re sending messages too quickly. Please wait a minute before trying again.');
-      } else {
-        setErrors({ submit: 'Oops! Something went wrong. Please try again later.' });
-      }
-      console.error('Error submitting form:', error);
-    }
   }
 };
+
 
 const handleMouseMove = (e) => {
   const x = e.pageX - e.currentTarget.offsetLeft;
