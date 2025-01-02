@@ -65,8 +65,8 @@ const Experience = () => {
                 <h4 className="paragraph text-lg mt-2 ml-3">Aug 2023 - Dec 2023</h4>
                 <ul className='space-y-4 text-md md:text-lg px-6 py-10 list-disc -mt-10'>
                   <br></br>
-                    <li>Designed and developed advanced chatbots using the latest in Natural Language Processing (NLP) and the Langchain framework, including mainstream large language models (LLMs) like GPT-4. </li>
-                    <li>Built user-friendly interfaces and integrating backend systems using Vue, Node.js, and REST APIs, leveraging Alibaba Cloud for database hosting to ensure scalability and efficiency</li>
+                    <li>Deployed an advanced AI-driven chatbot using the NLP techniques and the Langchain framework, incorporating mainstream LLMs such as GPT-4.</li>
+                    <li>Built a user-friendly chat window and integrated backend systems using Vue3 and Node.js, leveraging Alibaba Cloud for database hosting to ensure scalability and reliability.</li>
                 </ul>
               </div>
             </VerticalTimelineElement>

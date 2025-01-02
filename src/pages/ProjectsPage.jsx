@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaVuejs, FaDocker } from 'react-icons/fa';
-import { SiExpress, SiCreatereactapp, SiMongodb, SiSpringboot, SiMysql, SiApachemaven, SiRedis } from "react-icons/si";
+import { SiExpress, SiCreatereactapp, SiMongodb, SiSpringboot, SiMysql, SiApachemaven, SiLangchain } from "react-icons/si";
 import { ReactSVG } from 'react-svg';
 import Title from '../components/Title';
 import monopoly from '../assets/monopoly.jpg';
@@ -96,7 +96,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Single-Player Monopoly</div>
                 <p className="text-slate-500 text-base mt-2">
-                  A single-player Monopoly game developed using JavaScript, HTML, and CSS to implement interactive gameplay features and smooth game logic.
+                  A single-player Monopoly game developed using JavaScript, HTML, and CSS to implement engaging gameplay features and smooth game logic.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -136,7 +136,7 @@ const Projects = () => {
                     <IconWithTooltip icon={FaReact} label="React" />
                     <IconWithTooltip icon={FaNodeJs} label="Node.js" />
                     <IconWithTooltip icon={FaDocker} label="Docker" />
-                    <IconWithTooltip icon={SiRedis} label="Redis" />
+                    <IconWithTooltip icon={SiLangchain} label="Langchain" />
                     <div className="relative group flex items-center mx-1">
                       <ReactSVG src={chatGPT} className="text-3xl mb-3 group-hover:text-blue-500 transition-colors" />
                       <span className="absolute left-1/2 transform -translate-x-1/2 mt-8 w-max text-white text-xs font-medium p-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
@@ -166,9 +166,9 @@ const Projects = () => {
                     Read More
                   </button></a>
                   <div className="grid grid-cols-4 ml-4 mt-1">
+                    <IconWithTooltip icon={FaVuejs} label="Vue" />
                     <IconWithTooltip icon={SiSpringboot} label="SpringBoot" />
                     <IconWithTooltip icon={SiApachemaven} label="Maven" />
-                    <IconWithTooltip icon={FaVuejs} label="Vue" />
                     <IconWithTooltip icon={SiMysql} label="MySQL" />
                   </div>
               </div>

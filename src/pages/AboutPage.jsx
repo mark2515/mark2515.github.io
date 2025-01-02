@@ -38,10 +38,10 @@ const About = () => {
             </div>
 
             <div className="flex justify-center md:justify-start">
-              <div className='card-wrapper-button font-bold h-[5rem] w-[16rem] hover:scale-105 transition ease-in-out duration-500'>
-                <a href={'https://raw.githubusercontent.com/mark2515/mark2515.github.io/fb8841e1164520436d59c7cd79b97b9bd8da98b0/src/assets/Kunlong_He_Resume.pdf'} target="_blank" rel="noopener noreferrer">
+              <div className='card-wrapper-button font-bold h-[5rem] w-[14rem] hover:scale-105 transition ease-in-out duration-500'>
+                <a href={'https://testbucket-mark.s3.ca-central-1.amazonaws.com/Kunlong_He_Resume.pdf'} target="_blank" rel="noopener noreferrer">
                   <button className='card-content-button rounded-3xl cursor-pointer'>
-                    <p className="text-center text-xl font-bold">Download My Resume</p>
+                    <p className="text-center text-xl font-bold">Check My Resume</p>
                   </button>
                 </a> 
               </div>
