@@ -122,7 +122,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Language Learn Chatbot</div>
                 <p className="text-slate-500 text-base mt-2">
-                  An English learning platform that provides high-frequency word alerts and incorporates a chatbot powered by ChatGPT APIs to ensure translation accuracy and practical usage.
+                  An English learning platform that provides high-frequency word alerts and embeds a chatbot powered by ChatGPT APIs to ensure translation accuracy and practical usage.
                 </p>
               </div>
               <div className="flex mt-3">
