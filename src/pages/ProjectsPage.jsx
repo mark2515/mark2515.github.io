@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaVuejs, FaDocker } from 'react-icons/fa';
-import { SiExpress, SiCreatereactapp, SiMongodb, SiSpringboot, SiMysql, SiApachemaven, SiLangchain } from "react-icons/si";
+import { SiExpress, SiCreatereactapp, SiNextdotjs, SiTypescript, SiMongodb, SiSpringboot, SiMysql, SiApachemaven, SiLangchain } from "react-icons/si";
 import { ReactSVG } from 'react-svg';
 import Title from '../components/Title';
 import monopoly from '../assets/monopoly.jpg';
@@ -44,7 +44,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">ShopWay Online Mall</div>
                 <p className="text-slate-500 text-base mt-2">
-                  An online mall using the MERN stack with RESTful APIs, delivering scalable architecture and an intuitive user interface for efficient e-commerce functionalities.
+                  An online mall built on the MERN stack and RESTful APIs, delivering scalable architecture with an intuitive user interface for efficient e-commerce functionalities.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -70,7 +70,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Battleship</div>
                 <p className="text-slate-500 text-base mt-2">
-                A team-developed Battleship board game project, featuring AI strategy and turn-based decision-making to provide an immersive and challenging player experience.
+                  A team-developed Battleship game, featuring AI algorithms and turn-based management to provide an engaging and challenging player experience.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -96,7 +96,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Single-Player Monopoly</div>
                 <p className="text-slate-500 text-base mt-2">
-                  A single-player Monopoly game developed using JavaScript, HTML, and CSS to implement engaging gameplay features and smooth game logic.
+                  A single-player Monopoly game developed with JavaScript, HTML, and CSS, implementing immersive gameplay features and smooth game logic.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -122,7 +122,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Language Learn Chatbot</div>
                 <p className="text-slate-500 text-base mt-2">
-                  An English learning website that provides high-frequency word alerts, integrated with a chatbot powered by ChatGPT APIs to ensure translation accuracy and practical usage.
+                  An English learning platform that provides high-frequency word alerts and incorporates a chatbot powered by ChatGPT APIs to ensure translation accuracy and practical usage.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -134,7 +134,8 @@ const Projects = () => {
                     <IconWithTooltip icon={SiMongodb} label="MongoDB" />
                     <IconWithTooltip icon={SiExpress} label="Express.js" />
                     <IconWithTooltip icon={FaReact} label="React" />
-                    <IconWithTooltip icon={FaNodeJs} label="Node.js" />
+                    <IconWithTooltip icon={SiNextdotjs} label="Next.js" />
+                    <IconWithTooltip icon={SiTypescript} label="TypeScript" />
                     <IconWithTooltip icon={FaDocker} label="Docker" />
                     <IconWithTooltip icon={SiLangchain} label="Langchain" />
                     <div className="relative group flex items-center mx-1">
@@ -157,7 +158,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Club Management System</div>
                 <p className="text-slate-500 text-base mt-2">
-                  A club management system equipped with multi-format data import capabilities and incorporating with Echarts to visualize member data statistics.
+                  A club management system equipped with multi-format data import capabilities and integrated with Echarts to visualize membership data statistics.
                 </p>
               </div>
               <div className="flex mt-3">
