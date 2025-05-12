@@ -128,7 +128,7 @@ const titles = ["Cutting-edge", "Unprecedented", "Reliable", "Well-documented", 
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="How would you like me to contact you?"
+              placeholder="How can I contact you?"
               className={`w-full px-4 py-2 rounded-md bg-gray-800 bg-opacity-50 border ${errors.email ? 'border-red-500' : 'border-gray-700'} text-white placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-200`}
             />
             {errors.email && <p className="mt-1 text-sm text-red-500 flex items-center"><FaExclamationCircle size={16} className="mr-1" /> {errors.email}</p>}
@@ -141,7 +141,7 @@ const titles = ["Cutting-edge", "Unprecedented", "Reliable", "Well-documented", 
               value={formData.message}
               onChange={handleChange}
               rows="4"
-              placeholder="I would love to hear your ideas; please feel free to share!"
+              placeholder="I'd love to hear your ideas!"
               className={`w-full px-4 py-2 rounded-md bg-gray-800 bg-opacity-50 border ${errors.message ? 'border-red-500' : 'border-gray-700'} text-white placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-200`}
             ></textarea>
             {errors.message && <p className="mt-1 text-sm text-red-500 flex items-center"><FaExclamationCircle size={16} className="mr-1" /> {errors.message}</p>}
@@ -151,7 +151,7 @@ const titles = ["Cutting-edge", "Unprecedented", "Reliable", "Well-documented", 
           <div className="flex justify-center md:justify-start">
               <div className='card-wrapper-button font-bold h-[4rem] w-[15rem] hover:scale-105 transition ease-in-out duration-500'>
                   <button className='card-content-button rounded-3xl cursor-pointer'>
-                    <p className="text-center text-xl lg:text-2xl font-bold">Send me off!</p>
+                    <p className="text-center text-xl lg:text-2xl font-bold">Send me off !</p>
                   </button>  
                 </div>
           </div>

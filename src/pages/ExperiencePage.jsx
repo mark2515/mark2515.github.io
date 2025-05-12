@@ -23,10 +23,10 @@ const Experience = () => {
                 <h4 className="paragraph text-lg mt-2 ml-3">Jan 2019 - Present</h4>
                 <ul className='space-y-4 text-md md:text-lg px-4 py-10 list-disc -mt-10'>
                   <br></br>
-                  <li>2024 Dean's Honour Roll, Simon Fraser University</li>
+                  <li>Dean's Honour Roll 2024, Simon Fraser University</li>
                   <li>Mountain Madness 2024, Simon Fraser University - <span className='paragraph underline font-bold'>5th Place</span></li>
                   <li>A Strange Programming Contest 2023, Simon Fraser University - <span className='paragraph underline font-bold'>Creativity Award</span></li>
-                  <li>2020 Lanqiao Cup Competition: C/C++ Programming - <span className='paragraph underline font-bold'>Third Prize</span></li>
+                  <li>Lanqiao Cup Competition 2020: C/C++ Programming - <span className='paragraph underline font-bold'>Third Prize</span></li>
                   <li>Euclid Mathematics Contest 2019 - <span className='paragraph underline font-bold'>Top 25%</span> among 22169 applicants</li>
                 </ul>
               </div>

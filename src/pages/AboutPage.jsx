@@ -21,7 +21,7 @@ const About = () => {
           <div className='space-y-10 mt-0 md:mt-10'>
             <p className="text-center md:text-left text-xl md:text-3xl">
               I am a <span className="gradient bg-gradient-to-b from-blue-300 to-blue-700 bg-clip-text text-transparent font-bold">Computer Science</span> student at Simon Fraser University, 
-              continuously learning new skills in <span className="gradient bg-gradient-to-b from-blue-300 to-blue-700 bg-clip-text text-transparent font-bold">software development</span>.
+              continuously learning new skills in <span className="gradient bg-gradient-to-b from-blue-300 to-blue-700 bg-clip-text text-transparent font-bold">Software Engineering</span>.
               My dream is to develop innovative software solutions that address real-world problems.
             </p>
 

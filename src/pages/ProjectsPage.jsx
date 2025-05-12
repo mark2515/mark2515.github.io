@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaVuejs, FaDocker } from 'react-icons/fa';
-import { SiExpress, SiCreatereactapp, SiNextdotjs, SiTypescript, SiMongodb, SiSpringboot, SiMysql, SiApachemaven, SiLangchain } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaVuejs } from 'react-icons/fa';
+import { SiExpress, SiCreatereactapp, SiNextdotjs, SiTypescript, SiMongodb, SiSpringboot, SiMysql, SiApachemaven, SiLangchain, SiTailwindcss } from "react-icons/si";
 import { ReactSVG } from 'react-svg';
 import Title from '../components/Title';
 import monopoly from '../assets/monopoly.jpg';
@@ -44,7 +44,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">ShopWay Online Mall</div>
                 <p className="text-slate-500 text-base mt-2">
-                  An online mall built on the MERN stack and RESTful APIs, delivering scalable architecture with an intuitive user interface for efficient e-commerce functionalities.
+                  An online mall built on the MERN stack with RESTful APIs, offering a scalable architecture and an intuitive user interface for efficient e-commerce functionality.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -122,7 +122,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Language Learn Chatbot</div>
                 <p className="text-slate-500 text-base mt-2">
-                  An English learning platform that provides high-frequency word alerts and embeds a chatbot powered by ChatGPT APIs to ensure translation accuracy and practical usage.
+                  An English learning platform that provides high-frequency word alerts and integrates a GPT-powered chatbot for accurate translations and practical language practice.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -136,7 +136,7 @@ const Projects = () => {
                     <IconWithTooltip icon={FaReact} label="React" />
                     <IconWithTooltip icon={SiNextdotjs} label="Next.js" />
                     <IconWithTooltip icon={SiTypescript} label="TypeScript" />
-                    <IconWithTooltip icon={FaDocker} label="Docker" />
+                    <IconWithTooltip icon={SiTailwindcss} label="Tailwind CSS" />
                     <IconWithTooltip icon={SiLangchain} label="Langchain" />
                     <div className="relative group flex items-center mx-1">
                       <ReactSVG src={chatGPT} className="text-3xl mb-3 group-hover:text-blue-500 transition-colors" />
@@ -158,7 +158,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Club Management System</div>
                 <p className="text-slate-500 text-base mt-2">
-                  A club management system equipped with multi-format data import capabilities and integrated with Echarts to visualize membership data statistics.
+                  A club management system supporting multi-format data import and Echarts integration for comprehensive membership data visualization.
                 </p>
               </div>
               <div className="flex mt-3">
