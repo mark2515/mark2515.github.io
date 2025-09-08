@@ -60,7 +60,7 @@ const Projects = () => {
                     <IconWithTooltip icon={SiNextdotjs} label="Next.js" />
                     <IconWithTooltip icon={SiTypescript} label="TypeScript" />
                     <IconWithTooltip icon={SiTailwindcss} label="Tailwind CSS" />
-                    <IconWithTooltip icon={SiLangchain} label="Langchain" />
+                    <IconWithTooltip icon={SiLangchain} label="LangChain" />
                     <div className="relative group flex items-center mx-1">
                       <ReactSVG src={chatGPT} className="text-3xl mb-3 group-hover:text-blue-500 transition-colors" />
                       <span className="absolute left-1/2 transform -translate-x-1/2 mt-8 w-max text-white text-xs font-medium p-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
@@ -142,7 +142,7 @@ const Projects = () => {
                   </button></a>
                   <div className="grid grid-cols-4 ml-4 mt-1">
                     <IconWithTooltip icon={FaVuejs} label="Vue" />
-                    <IconWithTooltip icon={SiSpringboot} label="SpringBoot" />
+                    <IconWithTooltip icon={SiSpringboot} label="Spring Boot" />
                     <IconWithTooltip icon={SiApachemaven} label="Maven" />
                     <IconWithTooltip icon={SiMysql} label="MySQL" />
                   </div>

@@ -51,26 +51,6 @@ const Experience = () => {
               </div>
             </VerticalTimelineElement>
 
-
-            <VerticalTimelineElement
-              className="mt-20"
-              contentStyle={{ background:`radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%)`, color: '#fff' }}
-              contentArrowStyle={{ borderRight: `10px solid #fff` }}  
-              shadowSize={ 'large' }
-              iconStyle={{ background:`radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%)`, color: '#fff' }}
-              icon={<FaHandsHelping  />}>
-              <div className='bg-black p-4 rounded-xl bg-opacity-50 backdrop-blur-lg shadow-lg hover:scale-102 duration-300 transition ease-in-out'>
-                <h3 className="font-bold text-3xl mt-3 ml-3 paragraph mb-2">Fujian Zhimao Law Firm</h3>
-                <hr className=''></hr>
-                <h4 className="paragraph text-lg mt-2 ml-3">Aug 2023 - Dec 2023</h4>
-                <ul className='space-y-4 text-md md:text-lg px-6 py-10 list-disc -mt-10'>
-                  <br></br>
-                    <li>Deployed a conversational AI-driven chatbot using the NLP techniques and the LangChain framework, incorporating mainstream LLMs such as GPT-4, and using Cloudflare as a network proxy.</li>
-                    <li>Built a user-friendly chat window and integrated backend systems using Vue3 and Node.js, leveraging Alibaba Cloud for database hosting to ensure scalability and reliability.</li>
-                </ul>
-              </div>
-            </VerticalTimelineElement>
-
             <VerticalTimelineElement
               className="mt-20"
               contentStyle={{ background:`radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%)`, color: '#fff' }}
@@ -87,6 +67,25 @@ const Experience = () => {
                     <li>Optimized a polygon packing algorithm to enhance efficiency and designed a modular code structure for improved project maintainability.</li>
                     <li> Mentored a fellow research assistant by providing guidance on algorithm optimization and code
                     debugging, fostering better team collaboration.</li>
+                </ul>
+              </div>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="mt-20"
+              contentStyle={{ background:`radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%)`, color: '#fff' }}
+              contentArrowStyle={{ borderRight: `10px solid #fff` }}  
+              shadowSize={ 'large' }
+              iconStyle={{ background:`radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%)`, color: '#fff' }}
+              icon={<FaHandsHelping  />}>
+              <div className='bg-black p-4 rounded-xl bg-opacity-50 backdrop-blur-lg shadow-lg hover:scale-102 duration-300 transition ease-in-out'>
+                <h3 className="font-bold text-3xl mt-3 ml-3 paragraph mb-2">Hunan Hualai Biotechnology Co., Ltd</h3>
+                <hr className=''></hr>
+                <h4 className="paragraph text-lg mt-2 ml-3">Jan 2025 - Aug 2025</h4>
+                <ul className='space-y-4 text-md md:text-lg px-6 py-10 list-disc -mt-10'>
+                  <br></br>
+                    <li>Delivered a cross-platform mobile app using React Native and TypeScript, and built a Spring Boot backend with DAO and service layers to orchestrate data flow between controllers and the database.</li>
+                    <li>Developed responsive chart components with Victory Native and implemented real-time data fetching and synchronization using TanStack Query.</li>
                 </ul>
               </div>
             </VerticalTimelineElement>

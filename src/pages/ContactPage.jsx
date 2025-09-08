@@ -141,7 +141,7 @@ const titles = ["Cutting-edge", "Unprecedented", "Reliable", "Well-documented", 
               value={formData.message}
               onChange={handleChange}
               rows="4"
-              placeholder="I'd love to hear your ideas!"
+              placeholder="Tell me anything you'd like to share. I'd love to hear your ideas!"
               className={`w-full px-4 py-2 rounded-md bg-gray-800 bg-opacity-50 border ${errors.message ? 'border-red-500' : 'border-gray-700'} text-white placeholder-gray-500 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-200`}
             ></textarea>
             {errors.message && <p className="mt-1 text-sm text-red-500 flex items-center"><FaExclamationCircle size={16} className="mr-1" /> {errors.message}</p>}
