@@ -45,7 +45,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Corpus AI Coach</div>
                 <p className="text-slate-500 text-base mt-2">
-                  An English learning platform that provides high-frequency word alerts and integrates a GPT-powered chatbot for accurate translation and conversational practice.
+                  An English learning platform that integrates a GPT-powered chatbot with the BNC and COCA corpora for accurate translation and conversational practice.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -132,7 +132,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Club Management System</div>
                 <p className="text-slate-500 text-base mt-2">
-                  A club management system supporting multi-format data import and Echarts integration for comprehensive membership data visualization.
+                  A club management system supporting multi-format data import and Echarts integration for membership data visualization and trend analysis.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -158,7 +158,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">ShopWay Online Mall</div>
                 <p className="text-slate-500 text-base mt-2">
-                  An online mall built on the MERN stack with RESTful APIs, offering an intuitive user interface and a scalable architecture for efficient e-commerce functionality.
+                  ShopWay is an online mall built on the MERN stack with RESTful APIs, offering an intuitive user interface and a scalable architecture for efficient e-commerce functionality.
                 </p>
               </div>
               <div className="flex mt-3">
