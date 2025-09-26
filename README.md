@@ -14,6 +14,6 @@ npm run dev
 ```
 Open http://localhost:5173 to view it in your browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
-# Contributing
-If you want to contribute to this project, please fork this repository and create a pull request, or drop me an email at kha112@sfu.ca
+# Contact
+If you find my work interesting and see potential for collaboration, feel free to reach out via my personal website or email me at hekunlong2515@gmail.com
 
