@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaVuejs } from 'react-icons/fa';
-import { SiExpress, SiCreatereactapp, SiNextdotjs, SiTypescript, SiMongodb, SiSpringboot, SiMysql, SiApachemaven, SiLangchain, SiTailwindcss, SiPython, SiPandas, SiScikitlearn, SiPytorch } from "react-icons/si";
+import { SiExpress, SiCreatereactapp, SiNextdotjs, SiTypescript, SiMongodb, SiSpringboot, SiMysql, SiApachemaven, SiLangchain, SiTailwindcss, SiPython, SiPandas, SiScikitlearn, SiPytorch, SiKotlin, SiFirebase, SiGooglemaps } from "react-icons/si";
 import { ReactSVG } from 'react-svg';
 import Title from '../components/Title';
 import chatbot from '../assets/chatbot.jpg';
 import monopoly from '../assets/monopoly.jpg';
 import battleship from '../assets/battleship.png';
+import routenode from '../assets/routenode.png';
 import cms from '../assets/cms.jpg';
 import shopway from '../assets/shopway.jpg';
 import fhc from '../assets/fhc.jpg';
@@ -80,7 +81,7 @@ const Projects = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2">Battleship</div>
                 <p className="text-slate-500 text-base mt-2">
-                  Our team's Battleship game features AI algorithms and turn-based management to provide players with an engaging experience and smooth gameplay logic.
+                  Our team uses AI strategies and a turn-based system to recreate the classic Battleship game, delivering an engaging experience and clear, smooth gameplay flow.
                 </p>
               </div>
               <div className="flex mt-3">
@@ -123,28 +124,33 @@ const Projects = () => {
               </div>
           </div>
         </div>
-       
+
         <div className='card-wrapper h-[32rem] w-[20rem] hover:scale-105 transition ease-in-out mt-20'>
           <div className='card-content'>
               <div className="relative h-56">
-                <img src={cms} alt="CMS" className="object-cover w-full h-full rounded-t-2xl" />
+                <img src={routenode} alt="RouteNode" className="object-cover w-full h-full rounded-t-2xl" />
               </div>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mt-2">Club Management System</div>
+                <div className="font-bold text-xl mt-2">RouteNode</div>
                 <p className="text-slate-500 text-base mt-2">
-                  A club management system supporting multi-format data import and Echarts integration for membership data visualization and trend analysis.
+                  RouteNode is an AI route planner that turns simple travel ideas into multi-stop trips. Enter your location and preferences to instantly get a recommended route!
                 </p>
               </div>
               <div className="flex mt-3">
-                <a href="https://github.com/mark2515/club-management-system" target="_blank" rel="noopener noreferrer">
+                <a href="https://route-node-webpage.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <button className="bg-blue-500 hover:bg-blue-700 hover:transition hover:ease-in-out text-white font-normal py-2 px-4 ml-5 rounded transition ease-in-out">
-                    Read More
+                    View Site
                   </button></a>
                   <div className="grid grid-cols-4 ml-4 mt-1">
-                    <IconWithTooltip icon={FaVuejs} label="Vue" />
-                    <IconWithTooltip icon={SiSpringboot} label="Spring Boot" />
-                    <IconWithTooltip icon={SiApachemaven} label="Maven" />
-                    <IconWithTooltip icon={SiMysql} label="MySQL" />
+                    <IconWithTooltip icon={SiKotlin} label="Kotlin" />
+                    <IconWithTooltip icon={SiFirebase} label="Firebase" />
+                    <IconWithTooltip icon={SiGooglemaps} label="Google Maps" />
+                    <div className="relative group flex items-center mx-1">
+                      <ReactSVG src={chatGPT} className="text-3xl mb-3 group-hover:text-blue-500 transition-colors" />
+                      <span className="absolute left-1/2 transform -translate-x-1/2 mt-8 w-max text-white text-xs font-medium p-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+                        OpenAI API
+                      </span>
+                    </div>
                   </div>
               </div>
           </div>
@@ -171,6 +177,32 @@ const Projects = () => {
                     <IconWithTooltip icon={SiExpress} label="Express.js" />
                     <IconWithTooltip icon={FaReact} label="React" />
                     <IconWithTooltip icon={FaNodeJs} label="Node.js" />
+                  </div>
+              </div>
+          </div>
+        </div>
+       
+        <div className='card-wrapper h-[32rem] w-[20rem] hover:scale-105 transition ease-in-out mt-20'>
+          <div className='card-content'>
+              <div className="relative h-56">
+                <img src={cms} alt="CMS" className="object-cover w-full h-full rounded-t-2xl" />
+              </div>
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mt-2">Club Management System</div>
+                <p className="text-slate-500 text-base mt-2">
+                  A club management system supporting multi-format data import and Echarts integration for membership data visualization and trend analysis.
+                </p>
+              </div>
+              <div className="flex mt-3">
+                <a href="https://github.com/mark2515/club-management-system" target="_blank" rel="noopener noreferrer">
+                  <button className="bg-blue-500 hover:bg-blue-700 hover:transition hover:ease-in-out text-white font-normal py-2 px-4 ml-5 rounded transition ease-in-out">
+                    Read More
+                  </button></a>
+                  <div className="grid grid-cols-4 ml-4 mt-1">
+                    <IconWithTooltip icon={FaVuejs} label="Vue" />
+                    <IconWithTooltip icon={SiSpringboot} label="Spring Boot" />
+                    <IconWithTooltip icon={SiApachemaven} label="Maven" />
+                    <IconWithTooltip icon={SiMysql} label="MySQL" />
                   </div>
               </div>
           </div>
